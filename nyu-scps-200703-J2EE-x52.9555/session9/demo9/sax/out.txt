@@ -1,0 +1,80 @@
+startDocument
+Processing Instruction:  target: GradeStudents, data: totalpoints="100" 
+startPrefixMapping:  prefix: , uri: http://nyu.edu/isp
+startPrefixMapping:  prefix: stu, uri: http://Students.org/TR
+startElement: Student-List, localname: Student-List, uri: http://nyu.edu/isp
+Character Data: *
+	*
+startElement: stu:Student, localname: Student, uri: http://Students.org/TR
+	Attributes: 
+Attribute: id, Value: 000001, localname: id, uri: 
+Character Data: *
+		*
+startElement: Name, localname: Name, uri: http://nyu.edu/isp
+Character Data: *John P Smith*
+endElement: Name
+Character Data: *
+		*
+startElement: Grading, localname: Grading, uri: http://nyu.edu/isp
+Character Data: *Letter*
+endElement: Grading
+Character Data: *
+		*
+startElement: Score, localname: Score, uri: http://nyu.edu/isp
+Character Data: *78*
+endElement: Score
+Character Data: *
+	*
+endElement: stu:Student
+Character Data: *
+	*
+startElement: stu:Student, localname: Student, uri: http://Students.org/TR
+	Attributes: 
+Attribute: id, Value: 000002, localname: id, uri: 
+Character Data: *
+		*
+startElement: Name, localname: Name, uri: http://nyu.edu/isp
+Character Data: *Cathy Beckford*
+endElement: Name
+Character Data: *
+		*
+startElement: Grading, localname: Grading, uri: http://nyu.edu/isp
+Character Data: *PassFail*
+endElement: Grading
+Character Data: *
+		*
+startElement: Score, localname: Score, uri: http://nyu.edu/isp
+Character Data: *67*
+endElement: Score
+Character Data: *
+	*
+endElement: stu:Student
+Character Data: *
+	*
+startElement: stu:Student, localname: Student, uri: http://Students.org/TR
+	Attributes: 
+Attribute: id, Value: 000003, localname: id, uri: 
+Character Data: *
+		*
+startElement: Name, localname: Name, uri: http://nyu.edu/isp
+Character Data: *Bob Leonard*
+endElement: Name
+Character Data: *
+		*
+startElement: Grading, localname: Grading, uri: http://nyu.edu/isp
+Character Data: *NonEval*
+endElement: Grading
+Character Data: *
+		*
+startElement: Score, localname: Score, uri: http://nyu.edu/isp
+Character Data: *45*
+endElement: Score
+Character Data: *
+	*
+endElement: stu:Student
+Character Data: *
+*
+endElement: Student-List
+endPrefixMapping:  prefix: 
+endPrefixMapping:  prefix: stu
+endDocument

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<car xmlns="http://www.scps.nyu.edu/jws/CarManagement" 
+     xmlns:ns2="http://www.scps.nyu.edu/jws/Name" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:schemaLocation="http://www.scps.nyu.edu/jws/CarManagement 
+     .\Car.xsd"
+     VIN="JDGWY473889SDK">
+    <color>Blue</color>
+    <make>Honda</make>
+    <model>Civic</model>
+    <owner ns2:id="1">
+        <ns2:firstName>Joseph</ns2:firstName>
+        <ns2:lastName>Smith</ns2:lastName>
+        <ns2:middleName>P</ns2:middleName>
+        <ns2:nickName>Joe</ns2:nickName>
+    </owner>
+    <type>Compact</type>
+    <year>2011</year>
+    <plateNumber>BNC 1234</plateNumber>
+    <registrationNumber>23ADRFDI</registrationNumber>
+    <state>NY</state>
+    <price>17000</price>
+</car>

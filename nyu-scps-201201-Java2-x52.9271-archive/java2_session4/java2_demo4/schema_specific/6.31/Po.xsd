@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Listing 6.31 enhanced PO schema-->
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" 'http://www.w3.org/2001/XMLSchema.dtd'>
+<xs:schema xmlns:book="http://www.nyu.edu/jws/Book" xmlns="http://www.nyu.edu/jws/Address" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.nyu.edu/jws/PO" targetNamespace="http://www.nyu.edu/jws/PO" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:import namespace="http://www.nyu.edu/jws/Address" schemaLocation="../6.30/address.xsd"/>
+	<xs:import namespace="http://www.nyu.edu/jws/Book" schemaLocation="../6.29/book.xsd"/>
+	<xs:element name="purchaseOrder">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="accountName" type="xs:string"/>
+				<xs:element name="accountNumber" type="xs:unsignedShort"/>
+				<xs:element name="shipAddress" type="Address"/>
+				<xs:element name="billAddress" type="Address"/>
+				<xs:element name="bookOrder" type="book:Book" maxOccurs="unbounded"/>
+				<xs:element name="total" type="xs:double"/>
+			</xs:sequence>
+			<xs:attribute name="orderDate" type="xs:date" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

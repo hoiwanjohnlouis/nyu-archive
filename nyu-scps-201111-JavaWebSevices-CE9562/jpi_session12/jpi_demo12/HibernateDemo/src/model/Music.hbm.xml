@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 8, 2010 1:03:53 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+
+    <class name="model.Music" table="MUSICS">
+        <id name="id" type="int">
+            <column name="RECORDING_ID" />
+            <generator class="increment" />
+        </id>
+        <property name="title" type="java.lang.String">
+            <column name="ALBUM_TITLE" />
+        </property>
+        <property name="numberOfTracks" type="int">
+            <column name="NUM_TRACKS" />
+        </property>
+
+        <property name="stockCount" type="int">
+            <column name="STOCK_COUNT" />
+        </property>
+        
+        <property name="price" type="double">
+            <column name="PRICE" />
+        </property>
+
+        <many-to-one name="artist" class="model.Artist" fetch="join">
+            <column name="ARTIST_ID" />
+        </many-to-one>
+        
+        <many-to-one name="category" class="model.Category" fetch="join">
+            <column name="CATEGORY_ID" />
+        </many-to-one>     
+           
+        <set name="tracks" inverse="false" table="MUSIC_TRACKS" lazy="true">
+            <key>
+                <column name="RECORDING_ID" />
+            </key>
+            <one-to-many class="model.Track"/>
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Listing 6.03 -->
+<purchaseOrder orderDate="2004-10-11" xmlns="http://www.nyu.edu/jws/PO">
+	<accountName>NYU</accountName>
+	<accountNumber>123</accountNumber>
+	<address category="work" language="us-en" xmlns="http://www.nyu.edu/jws/Address">
+		<name>NYU</name>
+		<street>10 Astor Place</street>
+		<city>New York</city>
+		<state>NY</state>
+		<zip>10003</zip>
+	</address>
+	<book isbn="0-321-14618-2">
+		<title>Java Web Services</title>
+		<quantity>100</quantity>
+		<price>49.99</price>
+	</book>
+	<total>4999.00</total>
+</purchaseOrder>

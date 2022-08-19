@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" 'http://www.w3.org/2001/XMLSchema.dtd'>
+<xs:schema xmlns:book="http://www.nyu.edu/jws/Book" xmlns="http://www.nyu.edu/jws/Address" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.nyu.edu/jws/PO" targetNamespace="http://www.nyu.edu/jws/PO" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:import namespace="http://www.nyu.edu/jws/Address" schemaLocation="../6.33/address.xsd"/>
+	<xs:import namespace="http://www.nyu.edu/jws/Book" schemaLocation="../6.29/book.xsd"/>
+	<xs:annotation>
+		<xs:appinfo>Java Web Services Note</xs:appinfo>
+		<xs:documentation xml:lang="en">
+          Listing 6.36 using union of number and string
+        </xs:documentation>
+	</xs:annotation>
+	<xs:element name="purchaseOrder">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="accountName" type="xs:string"/>
+				<xs:element name="accountNumbers" type="tns:AccountNumberTypes"/>
+				<xs:element name="shipAddress" type="Address"/>
+				<xs:element name="billAddress" type="Address"/>
+				<xs:element name="bookOrder" type="book:Book" maxOccurs="unbounded"/>
+				<xs:element name="total" type="xs:double"/>
+			</xs:sequence>
+			<xs:attribute name="orderDate" type="xs:date" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="AccountNumberTypes">
+		<xs:list itemType="tns:NumberType"/>
+	</xs:simpleType>
+	<xs:simpleType name="NumberType">
+		<xs:union memberTypes="xs:nonNegativeInteger xs:string"/>
+	</xs:simpleType>
+</xs:schema>

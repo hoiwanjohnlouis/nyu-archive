@@ -1,0 +1,81 @@
+<?php
+
+$action = (isset($_GET['action'])) ? $_GET['action'] : false;
+$title  = '';
+
+switch ($action) {
+    case 'bio':
+        $title = "Bio";
+        $contents = "Hello, I'm Dave and I'm a software developer.";
+        break;
+
+    case 'contact':
+        $title = "Contact";
+        $contents = 'Email me at dah16@nyu.edu';
+        $isPost = (isset($_SERVER['REQUEST_METHOD']) && strtolower($_SERVER['REQUEST_METHOD']) == 'post') ?: false;
+        if ($isPost) {
+            $email = (isset($_POST['email']))
+                ? htmlentities($_POST['email'])
+                : '';
+            $message = (isset($_POST['message']))
+                ? htmlentities($_POST['message'])
+                : '';
+        }
+        break;
+
+    default:
+        $title = "Home Page";
+        $contents = "Welcome to my site!";
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Lab 2 Form</title>
+        <style>
+            label {
+                display: block;
+            }
+            ul {
+                list-style-type: none;
+            }
+        </style>
+    </head>
+    <body id="home-page" class="">
+        <h1><?php echo $title; ?></h1>
+        <ul>
+            <li><a href="<?php echo $_SERVER['PHP_SELF']; ?>">Home</a></li>
+            <li><a href="<?php echo $_SERVER['PHP_SELF']; ?>?action=bio">Bio</a></li>
+            <li><a href="<?php echo $_SERVER['PHP_SELF']; ?>?action=contact">Contact</a></li>
+        </ul>
+        <?php echo $contents; ?>
+
+        <?php if ($action == 'contact') { ?>
+            <?php if (!$isPost) { ?>
+        <p>
+            Or fill out the form below.
+        </p>
+        <form action="assignment1.php?action=contact" method="post">
+            <ul>
+                <li>
+                    <label for="email">Your Email</label>
+                    <input type="text" name="email" id="email" />
+                </li>
+                <li>
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </li>
+                <li>
+                    <input type="submit" name="Submit" value="Submit" id="submit" />
+                </li>
+        </form>
+            <?php } else { ?>
+        <ul>
+            <li><strong>Email:</strong> <?php echo $email; ?></li>
+            <li><strong>Message:</strong><br /><?php echo $message; ?></li>
+        </ul>
+            <?php } ?>
+        <?php } ?>
+    </body>
+</html>

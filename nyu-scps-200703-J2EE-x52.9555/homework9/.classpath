@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="hw9/row"/>
+	<classpathentry kind="src" path="session9/dom"/>
+	<classpathentry kind="src" path="session9/sax"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/cloudscape.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/commons-el.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/dom.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/fscontext.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/providerutil.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/rowset.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/standard.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/naming-factory.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/naming-factory-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/naming-resources.jar"/>
+	<classpathentry kind="output" path="session9/sax"/>
+</classpath>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by osipova (EMBRACE) -->
+<!-- 
+    Java Web Services: HW #10;  Hoi Wan Louis
+    	1)	Define an xml schema Name.xsd for the following datatypes related to Name.
+        The target namespace of the types would be: http://www.scps.nyu.edu/jws/Name 
+        and local elements and attributes are both qualified.
+    	  	a)	NameType – this datatype is abstract and would contain the following fields in sequence:
+  	  			1)	firstName -  string – one occurance only
+  	  			2)	lastName – string  - one occurance only
+  	  			3)	middleName – string – one occurance only
+    	  	b)	ExtendedNameType – This datatype would extend from NameType 
+                and add the following two fields in sequence:
+   	  			1)	nickName -  string – occurance is zero or one 
+  	  			2)	maidenName – string – occurance is zero or one
+-->
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" 'http://www.w3.org/2001/XMLSchema.dtd'>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.scps.nyu.edu/jws/Name" targetNamespace="http://www.scps.nyu.edu/jws/Name" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:element name="name" type="ExtendedNameType"/>
+	<xs:complexType name="NameType" abstract="true">
+		<xs:sequence>
+			<xs:element name="firstName" type="xs:string"/>
+			<xs:element name="lastName" type="xs:string"/>
+			<xs:element name="middleName" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ExtendedNameType">
+		<xs:complexContent>
+			<xs:extension base="NameType">
+				<xs:sequence>
+					<xs:element name="nickName" type="xs:string" minOccurs="0"/>
+					<xs:element name="maidenName" type="xs:string" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

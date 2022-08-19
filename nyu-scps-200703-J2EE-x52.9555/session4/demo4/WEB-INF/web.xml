@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<!-- uncomment for context parameter to work
+	<context-param>
+		<param-name>
+			caption
+		</param-name>
+		<param-value>
+			Our Little Test Application
+		</param-value>
+	</context-param>
+	uncomment for context parameter to work -->
+	<!--  uncomment for content filter and time logging filter to work
+	<filter>
+		<filter-name>ContentFilter</filter-name>
+		<filter-class>ContentLengthControlFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>TimeLogingFilter</filter-name>
+		<filter-class>LogFilter</filter-class>
+	</filter>
+	uncomment for content filter and time logging filter to work -->
+	<!-- uncomment for zip filter to work
+	<filter>
+		<filter-name>GZIPFilter</filter-name>
+		<filter-class>GZIPFilter</filter-class>
+	</filter>
+	uncomment for zip filter to work-->
+	<!--  uncomment for content filter and time logging filter to work
+	<filter-mapping>
+		<filter-name>TimeLogingFilter</filter-name>
+		<url-pattern>/servlet/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>ContentFilter</filter-name>
+		<url-pattern>/servlet/*</url-pattern>
+	</filter-mapping>
+	uncomment for content filter and time logging filter to work -->
+	<!-- uncomment for zip filter to work
+	<filter-mapping>
+		<filter-name>GZIPFilter</filter-name>
+		<url-pattern>/servlet/*</url-pattern>
+	</filter-mapping>
+	uncomment for zip filter to work-->
+	<!-- uncomment for servlet config parameter to work
+	<servlet>
+		<servlet-name>
+			ServletConfigInitParameterDemoServlet
+		</servlet-name>
+		<servlet-class>
+			ServletConfigInitParameterDemoServlet
+		</servlet-class>
+		<init-param>
+			<param-name>
+				message
+			</param-name>
+			<param-value>
+				Weather Today: Mostly chilly. High around 65F. Wind condition is unknown.
+			</param-value>
+		</init-param>
+	</servlet>
+	uncomment for servlet config parameter to work -->
+	<!-- uncomment for any kind of security to work
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>
+				GeneralProtection
+			</web-resource-name>
+			<url-pattern>
+				/*
+			</url-pattern>
+			<http-method>
+				GET
+			</http-method>
+			<http-method>
+				POST
+			</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>
+				manager
+			</role-name>
+		</auth-constraint>
+	</security-constraint>
+	uncomment for any kind of security to work -->
+	<!-- uncomment for BASIC authentication to work
+	<login-config>
+		<auth-method>
+			BASIC
+		</auth-method>
+	</login-config>
+	uncomment for BASIC authentication to work -->
+	<!-- uncomment for FORM authentication to work
+	<login-config>
+		<auth-method>
+			FORM
+		</auth-method>
+		<form-login-config>
+			<form-login-page>
+				/loginpage.html
+			</form-login-page>
+			<form-error-page>
+				/errorpage.html
+			</form-error-page>
+		</form-login-config>
+	</login-config>
+	uncomment for FORM authentication to work -->
+	<!-- uncomment for any kind of security to work
+	<security-role>
+		<role-name>
+			manager
+		</role-name>
+	</security-role>
+	uncomment for any kind of security to work -->
+</web-app>

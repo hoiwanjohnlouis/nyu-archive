@@ -1,0 +1,19 @@
+intro to php 5.3
+class10 notes
+
+
+ORM - object relation 
+ODM - object document m
+
+Zend or symphony2 for enterprise
+
+cake, codeignighter are lightweight
+
+sencha.com
+
+canvas replaces flash
+
+silex-http://silex.sensiolabs.org/
+
+
+

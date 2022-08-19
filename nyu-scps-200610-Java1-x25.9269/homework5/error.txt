@@ -1,0 +1,48 @@
+nyu.java1.corporation.NegativeIncomeException: Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :6
+	NickName  :Fanta Inc.
+	Income    :0
+	TaxBracket:0
+	at nyu.java1.corporation.Person.setIncome(Person.java:165)
+	at nyu.java1.corporationtester.CompanyTester.main(CompanyTester.java:270)
+nyu.java1.corporation.NegativeIncomeException: Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :4
+	NickName  :Pepsi Cola Company Inc.
+	Income    :0
+	TaxBracket:0
+	at nyu.java1.corporation.Person.setIncome(Person.java:165)
+	at nyu.java1.corporationtester.CompanyTester.main(CompanyTester.java:240)
+nyu.java1.corporation.NegativeIncomeException: Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :6
+	NickName  :Fanta Inc.
+	Income    :0
+	TaxBracket:0
+	at nyu.java1.corporation.Person.setIncome(Person.java:165)
+	at nyu.java1.corporationtester.CompanyTester.main(CompanyTester.java:268)
+nyu.java1.corporation.NegativeIncomeException: Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :4
+	NickName  :Pepsi Cola Company Inc.
+	Income    :0
+	TaxBracket:0
+	at nyu.java1.corporation.Person.setIncome(Person.java:165)
+	at nyu.java1.corporationtester.CompanyTester.main(CompanyTester.java:238)
+nyu.java1.corporation.NegativeIncomeException: Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :6
+	NickName  :Fanta Inc.
+	Income    :0
+	TaxBracket:0
+	at nyu.java1.corporation.Person.setIncome(Person.java:165)
+	at nyu.java1.corporationtester.CompanyTester.main(CompanyTester.java:268)
+nyu.java1.corporation.NegativeIncomeException: Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :4
+	NickName  :Pepsi Cola Company Inc.
+	Income    :0
+	TaxBracket:0
+	at nyu.java1.corporation.Person.setIncome(Person.java:165)
+	at nyu.java1.corporationtester.CompanyTester.main(CompanyTester.java:238)

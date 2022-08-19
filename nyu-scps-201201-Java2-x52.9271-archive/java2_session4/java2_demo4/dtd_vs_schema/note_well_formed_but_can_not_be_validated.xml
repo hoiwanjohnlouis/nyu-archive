@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n1:note id="123" type="general" xmlns:n1="http://www.nyu.edu/scps/jpi/session10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<to>Adrika Rahman</to>
+	<from>John Smith</from>
+	<heading>Notification</heading>
+	<body>Your dress is ready for pickup</body>
+</n1:note>
+

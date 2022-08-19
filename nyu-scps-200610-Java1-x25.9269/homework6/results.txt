@@ -1,0 +1,54 @@
+In ProducerThread starting interation[1]
+In ProducerThread continuing interation[1], synchronized block. Producing [3] random numbers for the queue
+In ProducerThread continuing interation[1], synchronized block. while loop. Adding Random[1] number[21]
+In ProducerThread continuing interation[1], synchronized block. while loop. Adding Random[2] number[23]
+In ProducerThread continuing interation[1], synchronized block. while loop. Adding Random[3] number[28]
+In ProducerThread continuing interation[1], synchronized block. notifying...
+In ConsumerThread starting interation[1]
+In ProducerThread starting interation[2]
+In ConsumerThread continuing interation[1], synchronized block. Consuming [3] elements
+In ConsumerThread continuing interation[1], synchronized block. removed [21] from queue
+In ConsumerThread continuing interation[1], synchronized block. removed [23] from queue
+In ConsumerThread continuing interation[1], synchronized block. removed [28] from queue
+In ConsumerThread continuing interation[1], synchronized block. notifying...
+In ConsumerThread starting interation[2]
+In ProducerThread continuing interation[2], synchronized block. Producing [6] random numbers for the queue
+In ProducerThread continuing interation[2], synchronized block. while loop. Adding Random[1] number[30]
+In ProducerThread continuing interation[2], synchronized block. while loop. Adding Random[2] number[23]
+In ProducerThread continuing interation[2], synchronized block. while loop. Adding Random[3] number[30]
+In ProducerThread continuing interation[2], synchronized block. while loop. Adding Random[4] number[27]
+In ProducerThread continuing interation[2], synchronized block. while loop. Adding Random[5] number[20]
+In ProducerThread continuing interation[2], synchronized block. while loop. Adding Random[6] number[28]
+In ProducerThread continuing interation[2], synchronized block. notifying...
+In ProducerThread starting interation[3]
+In ConsumerThread continuing interation[2], synchronized block. Consuming [6] elements
+In ConsumerThread continuing interation[2], synchronized block. removed [30] from queue
+In ConsumerThread continuing interation[2], synchronized block. removed [23] from queue
+In ConsumerThread continuing interation[2], synchronized block. removed [30] from queue
+In ConsumerThread continuing interation[2], synchronized block. notifying...
+In ConsumerThread starting interation[3]
+In ProducerThread continuing interation[3], synchronized block. waiting for queue to empty
+In ConsumerThread continuing interation[3], synchronized block. Consuming [3] elements
+In ConsumerThread continuing interation[3], synchronized block. removed [27] from queue
+In ConsumerThread continuing interation[3], synchronized block. removed [20] from queue
+In ConsumerThread continuing interation[3], synchronized block. removed [28] from queue
+In ConsumerThread continuing interation[3], synchronized block. notifying...
+In ConsumerThread starting interation[4]
+In ConsumerThread continuing interation[4], synchronized block. while loop. is queue empty? true
+In ConsumerThread continuing interation[4], synchronized block. while loop. is complete? false
+In ConsumerThread continuing interation[4], synchronized block. while loop. waiting for more data
+In ProducerThread continuing interation[3], synchronized block. Producing [3] random numbers for the queue
+In ProducerThread continuing interation[3], synchronized block. while loop. Adding Random[1] number[27]
+In ProducerThread continuing interation[3], synchronized block. while loop. Adding Random[2] number[20]
+In ProducerThread continuing interation[3], synchronized block. while loop. Adding Random[3] number[24]
+In ProducerThread continuing interation[3], synchronized block. notifying...
+In ProducerThread DONE.
+In ConsumerThread continuing interation[4], synchronized block. Consuming [3] elements
+In ConsumerThread continuing interation[4], synchronized block. removed [27] from queue
+In ConsumerThread continuing interation[4], synchronized block. removed [20] from queue
+In ConsumerThread continuing interation[4], synchronized block. removed [24] from queue
+In ConsumerThread continuing interation[4], synchronized block. notifying...
+In ConsumerThread starting interation[5]
+In ConsumerThread continuing interation[5], synchronized block. while loop. is queue empty? true
+In ConsumerThread continuing interation[5], while loop. is complete? true
+In ConsumerThread DONE.

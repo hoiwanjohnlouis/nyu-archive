@@ -1,0 +1,36 @@
+# of 'be' between 0 and 12 : 1
+
+Total # of 'be': 2
+
+Total # of 'aa': 2
+
+Before Replacement of 'How' with 'Where' between 0 and 26:
+How are you my friend, How is everyone, How is John?
+
+After Replacement of 'How' with 'Where' between 0 and 26:
+Where are you my friend, Where is everyone, How is John?
+
+Before All Replacement of 'John' with 'Larissa':
+Would you help me with my homework John, would you John? Why not John?
+
+After All Replacement of 'John' with 'Larissa':
+Would you help me with my homework Larissa, would you Larissa? Why not Larissa?
+
+Before All Replacement of 'o' with 'oo' :
+Would you help me with my homework John, would you John? Why not John?
+
+After All Replacement of 'o' with 'oo' :
+Woould yoou help me with my hoomewoork Joohn, woould yoou Joohn? Why noot Joohn?
+
+Before All Replacement of 'John' with 'Jay' :
+Would you help me with my homework John, would you John? Why not John?
+
+After All Replacement of 'John' with 'Jay':
+Would you help me with my homework Jay, would you Jay? Why not Jay?
+
+Before All Replacement of 'Barbara' with 'Jay' :
+Would you help me with my homework Barbara,Barbara would you? Why not Barbara?
+
+After All Replacement of 'Barbara' with 'Jay':
+Would you help me with my homework Jay,Jay would you? Why not Jay?
+

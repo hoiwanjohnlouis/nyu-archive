@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Listing 6.21A valid -->
+<po:purchaseOrder po:orderDate="2004-10-11" xmlns:po="http://www.nyu.edu/jws/PO" xmlns:book="http://www.nyu.edu/jws/Book" xmlns:addr="http://www.nyu.edu/jws/Address" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nyu.edu/jws/PO ../6.20/po.xsd">
+	<po:accountName>NYU</po:accountName>
+	<po:accountNumber>123</po:accountNumber>
+	<po:shipAddress addr:category="work" addr:language="us-en">
+		<addr:name>NYU SCPS</addr:name>
+		<addr:street>48 Cooper Square</addr:street>
+		<addr:floor>2</addr:floor>
+		<addr:city>New York</addr:city>
+		<addr:state>NY</addr:state>
+		<addr:zip>10003</addr:zip>
+	</po:shipAddress>
+	<po:billAddress addr:category="work" addr:language="us-en">
+		<addr:name>SCPS Admin</addr:name>
+		<addr:street>10 Astor Place</addr:street>
+		<addr:floor>5</addr:floor>
+		<addr:city>New York</addr:city>
+		<addr:state>NY</addr:state>
+		<addr:zip>10003</addr:zip>
+	</po:billAddress>
+	<po:bookOrder book:isbn="0-321-14618-2">
+		<book:title>Java Web Services</book:title>
+		<book:quantity>100</book:quantity>
+		<book:price>49.99</book:price>
+	</po:bookOrder>
+	<po:total>4999.00</po:total>
+</po:purchaseOrder>

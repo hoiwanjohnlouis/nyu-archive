@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+
+   <package name="package1" namespace="" extends="struts-default">
+        <action name="helloJavaStudent" class="edu.nyu.HelloStudentAction">
+            <result name="SUCCESS">/pages/hellostruts.jsp</result>
+        </action>
+
+    </package>
+
+</struts>

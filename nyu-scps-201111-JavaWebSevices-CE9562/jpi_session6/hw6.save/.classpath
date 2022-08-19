@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry exported="true" kind="lib" path="M:/My.Classes/java.web.services/jpi_session6/hw6/lib/rowset.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/hsqldb.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

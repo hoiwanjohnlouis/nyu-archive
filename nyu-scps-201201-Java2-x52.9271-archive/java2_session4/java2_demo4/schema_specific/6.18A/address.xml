@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Listing 6.18A valid since it follows <InternationalAddress> schema which extends <Address> schema-->
+<addr:internationaladdress addr:language="us-en" addr:category="work" addr:countrycode="usa" xmlns:addr="http://www.nyu.edu/jws/Address" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nyu.edu/jws/Address ../6.17/Address.xsd">
+	<addr:street>Marsh ETG Department</addr:street>
+	<addr:street>121 River Street</addr:street>
+	<addr:floor>4th</addr:floor>
+	<addr:city>Hoboken</addr:city>
+	<addr:state>NJ</addr:state>
+	<addr:zip>07030</addr:zip>
+	<addr:country>United States of America</addr:country>
+</addr:internationaladdress>

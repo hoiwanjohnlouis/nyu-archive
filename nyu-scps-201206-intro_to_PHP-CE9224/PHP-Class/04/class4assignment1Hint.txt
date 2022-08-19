@@ -1,0 +1,11 @@
+<?php
+	$navigation = array(
+		'Tech' => array(
+			'Tools'      => 'tools.php',
+			'Media'      => 'media.php',
+			'Enterprise' => 'enterprise.php',
+		),
+		// Create Finance and Politics yourself.
+		'Contact' => 'contact.php',
+	);
+

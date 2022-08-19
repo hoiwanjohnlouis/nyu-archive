@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Listing 6.15 schema with 'choice' element - 'aparment' or 'floor' may appear but not both -->
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" 'http://www.w3.org/2001/XMLSchema.dtd'>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.nyu.edu/jws/Address" targetNamespace="http://www.nyu.edu/jws/Address" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:attribute name="language" type="xs:string"/>
+	<xs:element name="address">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" minOccurs="0"/>
+				<xs:element name="street" type="xs:string"/>
+				<xs:choice>
+					<xs:element name="apartment" type="xs:string" minOccurs="0"/>
+					<xs:element name="floor" type="xs:string"/>
+				</xs:choice>
+				<xs:element name="city" type="xs:string" minOccurs="0"/>
+				<xs:element name="state" type="xs:string" minOccurs="0"/>
+				<xs:element name="zip" type="xs:string"/>
+			</xs:sequence>
+			<xs:attribute name="category" type="xs:string" use="optional" default="home"/>
+			<xs:attribute ref="language" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

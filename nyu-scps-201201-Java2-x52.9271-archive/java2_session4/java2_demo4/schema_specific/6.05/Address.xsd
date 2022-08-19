@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Listing 6.05  complex data type without an global element-->
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" 'http://www.w3.org/2001/XMLSchema.dtd'>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.nyu.edu/jws/Address" targetNamespace="http://www.nyu.edu/jws/Address">
+	<xs:complexType name="USAddress">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="street" type="xs:string"/>
+			<xs:element name="city" type="xs:string"/>
+			<xs:element name="state" type="xs:string"/>
+			<xs:element name="zip" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="category" type="xs:string"/>
+		<xs:attribute name="language" type="xs:string"/>
+	</xs:complexType>
+</xs:schema>

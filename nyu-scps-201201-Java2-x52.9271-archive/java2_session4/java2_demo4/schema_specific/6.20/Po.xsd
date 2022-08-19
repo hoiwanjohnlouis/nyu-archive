@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Listing 6.20 purchase order schema that imports Address and Book schema-->
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" 'http://www.w3.org/2001/XMLSchema.dtd'>
+<xs:schema xmlns:book="http://www.nyu.edu/jws/Book" xmlns:addr="http://www.nyu.edu/jws/Address" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.nyu.edu/jws/PO" targetNamespace="http://www.nyu.edu/jws/PO" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:import namespace="http://www.nyu.edu/jws/Address" schemaLocation="../6.17/address.xsd"/>
+	<xs:import namespace="http://www.nyu.edu/jws/Book" schemaLocation="../6.19/book.xsd"/>
+	<xs:element name="purchaseOrder" type="tns:PurchaseOrderType"/>
+	<xs:complexType name="PurchaseOrderType">
+		<xs:sequence>
+			<xs:element name="accountName" type="xs:string"/>
+			<xs:element name="accountNumber" type="xs:unsignedShort"/>
+			<xs:element name="shipAddress" type="addr:Address"/>
+			<xs:element name="billAddress" type="addr:Address"/>
+			<xs:element name="bookOrder" type="book:Book" maxOccurs="unbounded"/>
+			<xs:element name="total" type="xs:double"/>
+		</xs:sequence>
+		<xs:attribute name="orderDate" type="xs:date" use="required"/>
+	</xs:complexType>
+</xs:schema>

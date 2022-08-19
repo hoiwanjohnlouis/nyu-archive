@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" 'http://www.w3.org/2001/XMLSchema.dtd'>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.nyu.edu/jws/Tree" targetNamespace="http://www.nyu.edu/jws/Tree">
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:any namespace="##any" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:anyAttribute namespace="##other" processContents="strict"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+class 6 noted
+
+1,  <?, <?php are the same to start a PHP statement
+
+2.  <?=  is shorthand for  <?pho echo 
+
+3.  xkcd.com   -  funnies
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aegis" />
+        <module name="aegis-standalone" />
+        <module name="callback" />
+        <module name="configuration_interceptor" />
+        <module name="groovy_spring_support" />
+        <module name="in_jvm_transport" />
+        <module name="java_first_jaxws" />
+        <module name="java_first_jaxws_factory_bean" />
+        <module name="java_first_jaxws_jms" />
+        <module name="java_first_pojo" />
+        <module name="java_first_spring_support" />
+        <module name="jax_rs_basic" />
+        <module name="jax_rs_basic_https" />
+        <module name="jax_rs_content_negotiation" />
+        <module name="jax_rs_spring_security" />
+        <module name="jax_service_aegis_client" />
+        <module name="jaxws_async" />
+        <module name="jaxws_dispatch_provider" />
+        <module name="jaxws_handlers" />
+        <module name="jms_pubsub" />
+        <module name="jms_queue" />
+        <module name="jms_spec_demo" />
+        <module name="jms_spring_config" />
+        <module name="js_browser_client_java" />
+        <module name="js_browser_client_simple" />
+        <module name="js_client" />
+        <module name="js_provider" />
+        <module name="logbrowser" />
+        <module name="mtom" />
+        <module name="restful_dispatch" />
+        <module name="restful_http_binding" />
+        <module name="ruby_spring_support" />
+        <module name="soap_header" />
+        <module name="sts" />
+        <module name="ws_addressing" />
+        <module name="ws_notification" />
+        <module name="ws_policy" />
+        <module name="ws_rm" />
+        <module name="wsdl_first" />
+        <module name="wsdl_first_dynamic_client" />
+        <module name="wsdl_first_https" />
+        <module name="wsdl_first_pure_xml" />
+        <module name="wsdl_first_rpclit" />
+        <module name="wsdl_first_soap12" />
+        <module name="wsdl_first_xml_wrapped" />
+        <module name="wsdl_first_xmlbeans" />
+        <module name="wssec_sign_enc" />
+        <module name="wssec_ut" />
+        <module name="wssec_ut_policy" />
+        <module name="wssec_ut_sign" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

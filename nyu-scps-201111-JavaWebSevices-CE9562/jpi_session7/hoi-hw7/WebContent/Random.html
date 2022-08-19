@@ -1,0 +1,23 @@
+<html>
+<head><title>Random Post Screen</title></head>
+<body>
+<form method="POST" action="RandomServlet">
+Please enter the following information:<br>
+<hr>
+<table>
+  <TR>
+    <TD>Lower Bound</TD><TD><input type="integer" name="lower_bound" value="0"  ></TD>
+  </TR>
+  <TR>
+    <TD>Upper Bound</TD><TD><input type="integer" name="upper_bound" value="100"></TD>
+  </TR>
+  <TR>
+    <TD>How many?  </TD><TD><input type="integer" name="how_many"    value="10" ></TD>
+  </TR>
+</table>
+<hr>
+<input type="submit" name="submit" value="Send">
+<input type="reset" name="cancel" value="Clear">
+</form>
+</body>
+</html>

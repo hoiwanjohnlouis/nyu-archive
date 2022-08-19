@@ -1,0 +1,6 @@
+    $sql  = 'select ';
+    $sql .= 'users.`username`                   as USERNAME,    ';
+    $sql .= 'users.`first_name`                 as LAST_NAME,   ';
+    $sql .= 'users.`last_name`                  as FIRST_NAME,  ';
+    $sql .= 'users.`email`                      as EMAIL        ';
+    $sql .= 'from users ';

@@ -1,0 +1,77 @@
+<?php
+    // We may want to run this test several times, so just assign it to a variable.
+    // Even if we don't run it several times, we want to use it with HTML, this will look cleaner.
+    // If the form was submitted, $isPost will be true.
+    // If the page is loaded w/out the form submit, $isPost will be false.
+    // This syntax is the shortened ternary operator syntax.
+    $isPost = (isset($_SERVER['REQUEST_METHOD']) && strtolower($_SERVER['REQUEST_METHOD']) == 'post') ?: false;
+
+    if ($isPost && $_POST) {
+        $productName = (isset($_POST['product_name']))
+            ? ucwords(htmlentities($_POST['product_name']))
+            : '';
+        $price = (isset($_POST['price']))
+            ? sprintf('%.02f', htmlentities($_POST['price']))
+            : '';
+        // Alternative to price formatting, benefit here is that you get a
+        // comma for every thousand.
+        // $price = (isset($_POST['price']))
+        //     ? number_format(htmlentities($_POST['price']), 2)
+        //     : '';
+        $sku = (isset($_POST['sku']))
+            ? htmlentities($_POST['sku'])
+            : '';
+        $description = (isset($_POST['product_description']))
+            ? $_POST['product_description']
+            : '';
+    }
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Lab 2 Form</title>
+        <style>
+            label {
+                display: block;
+            }
+            ul {
+                list-style-type: none;
+            }
+        </style>
+    </head>
+    <body id="home-page" class="">
+        <?php if ( !$isPost ) { ?>
+        <form action="assignment2.php" method="post">
+            <ul>
+                <li>
+                    <label for="product_name">Product Name</label>
+                    <input type="text" name="product_name" id="product_name" />
+                </li>
+                <li>
+                    <label for="price">Price</label>
+                    <input type="text" name="price" id="price" />
+                </li>
+                <li>
+                    <label for="sku">SKU</label>
+                    <input type="text" name="sku" id="sku" />
+                </li>
+                <li>
+                    <label for="product_description">Product Description</label>
+                    <textarea name="product_description" id="product_description"></textarea>
+                </li>
+                <li>
+                    <input type="submit" name="Submit" value="Submit" id="submit" />
+                </li>
+			</ul>
+        </form>
+        <?php } else { ?>
+        <ul>
+            <li>Product Name: <?php echo $productName; ?></li>
+            <li>Price: $<?php echo $price; ?></li>
+            <li>SKU: <?php echo $sku; ?></li>
+            <li>Description: <?php echo $description; ?></li>
+        </ul>
+        <?php } ?>
+    </body>
+</html>

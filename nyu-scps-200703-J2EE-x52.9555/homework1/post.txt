@@ -1,0 +1,75 @@
+Charles General
+URL:	http://localhost:8080/servlets-examples/servlet/RequestInfoExample
+Status:	Complete
+Response Code:	200 OK
+Protocol:	HTTP/1.1
+HTTP Method:	POST
+Content-Type:	text/html;charset=ISO-8859-1
+Client Address:	/127.0.0.1
+Remote Address:	localhost/127.0.0.1
+Request Start Time:	Thu, 08 Feb 2007 21:41:47 EST
+Response Start Time:	Thu, 08 Feb 2007 21:41:48 EST
+Response End Time:	Thu, 08 Feb 2007 21:41:48 EST
+Request Header Size:	611 bytes
+Response Header Size:	148 bytes
+Request Size:	102 bytes
+Response Size:	690 bytes
+Total Size:	1.51 KB (1551 bytes)
+Duration:	291 ms
+Latency:	281 ms
+Response Duration:	10 ms
+Speed:	5.20 KB/s
+Response Speed:	81.84 KB/s
+Request Compression:	
+Response Compression:	
+
+Charles Request
+user_name	aaa
+user_password	w2sw
+email_account	true
+grade	LG
+skill	E
+webserver	I
+Comments			www	
+
+Charles Response
+<html>
+<body>
+<head>
+<title>Request Information Example</title>
+</head>
+<body bgcolor="white">
+<a href="../reqinfo.html">
+<img src="../images/code.gif" height=24 width=24 align=right border=0 alt="view code"></a>
+<a href="../index.html">
+<img src="../images/return.gif" height=24 width=24 align=right border=0 alt="return"></a>
+<h3>Request Information Example</h3>
+<table border=0><tr><td>
+Method:
+</td><td>
+POST
+</td></tr><tr><td>
+Request URI:
+</td><td>
+/servlets-examples/servlet/RequestInfoExample
+</td></tr><tr><td>
+Protocol:
+</td><td>
+HTTP/1.1
+</td></tr><tr><td>
+Path Info:
+</td><td>
+null
+</td></tr><tr><td>
+Remote Address:
+</td><td>
+127.0.0.1
+</table>
+
+Charles Summary
+1	http://localhost:8080/servlets-examples/servlet/RequestInfoExample	200	text/html	148	690	291
+2	http://127.0.0.1:1025/js.cgi?caw&r=3902	200	application/x-javascript	78	109	100
+	TOTAL			226	799	391
+	GRAND TOTAL				1025	
+	DURATION					511
+

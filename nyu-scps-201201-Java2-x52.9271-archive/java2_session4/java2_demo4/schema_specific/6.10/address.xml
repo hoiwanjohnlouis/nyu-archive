@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Listing 6.10 valid global element has namespace, local elements do not-->
+<addr:address addr:language="us-en" category="work" xmlns:addr="http://www.nyu.edu/jws/Address" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nyu.edu/jws/Address ../6.08/Address.xsd">
+	<addr:name>John Smith</addr:name>
+	<addr:name>John1 Smith1</addr:name>
+	<addr:name>John2 Smith2</addr:name>
+	<addr:name>John3 Smith3</addr:name>
+	<addr:name>John4 Smith4</addr:name>
+	<addr:street>121 River Street</addr:street>
+	<addr:street>89 River Street</addr:street>
+	<addr:city>Hoboken</addr:city>
+	<addr:state>NJ</addr:state>
+	<addr:zip>07030</addr:zip>
+</addr:address>

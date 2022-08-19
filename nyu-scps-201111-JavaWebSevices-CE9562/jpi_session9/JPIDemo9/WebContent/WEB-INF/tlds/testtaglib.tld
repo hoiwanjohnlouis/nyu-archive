@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+	"http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<!-- a tag library descriptor -->
+
+<taglib>
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.2</jspversion>
+  <shortname>testtaglib</shortname>
+  <uri></uri>
+  <info>A simple tab library for the examples</info>
+
+  <tag>
+    <name>testtag</name>
+    <tagclass>tags.TestTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>Display doStartTag() and doEndTag()</info>
+  </tag>
+  
+    <tag>
+    <name>repeattag</name>
+    <tagclass>tags.RepeatTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>Repeats body specified by the repeat attribute</info>
+    <attribute>
+	<name>repeat</name>
+	<required>true</required>
+	<rtexprvalue>true</rtexprvalue>
+    </attribute>
+  	</tag>
+  	<tag>
+    <name>testbodytag</name>
+    <tagclass>tags.TestBodyTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>converts body to uppercase</info>
+  	</tag>       
+  	       
+         
+</taglib>

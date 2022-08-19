@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<t:beans xmlns:t="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+
+	<t:bean id="myList" scope="prototype" class="java.util.ArrayList"></t:bean>
+
+	<t:bean id="prototype" scope="prototype"  class="dao.RandomImpl"></t:bean>
+
+	<t:bean id="x" class="dao.RandomImpl"></t:bean>
+	<t:bean id="y" class="service.RandomServiceImpl" scope="singleton" >
+		<t:property name="randomDAO" ref="x"></t:property>
+	</t:bean>
+</t:beans>

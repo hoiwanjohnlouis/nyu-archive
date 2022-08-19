@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Lab 2 Form</title>
+        <style>
+            label {
+                display: block;
+            }   
+            ul {
+                list-style-type: none;
+            }   
+        </style>
+    </head>
+    <body id="home-page" class="">
+        <form action="class3.php" method="post">
+            <ul>
+                <li>
+                    <label for="product_name">Product Name</label>
+                    <input type="text" name="product_name" id="product_name" />
+                </li>
+                <li>
+                    <label for="price">Price</label>
+                    <input type="text" name="price" id="price" />
+                </li>
+                <li>
+                    <label for="sku">SKU</label>
+                    <input type="text" name="sku" id="sku" />
+                </li>
+                <li>
+                    <label for="product_description">Product Description</label>
+                    <textarea name="product_description" id="product_description"></textarea>
+                </li>
+                <li>
+                    <input type="submit" name="Submit" value="Submit" id="submit" />
+                </li>
+        </form>
+    </body>
+</html>

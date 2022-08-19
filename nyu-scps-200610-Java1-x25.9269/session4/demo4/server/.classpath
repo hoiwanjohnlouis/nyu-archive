@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/lib/saaj-api.jar"/>
+	<classpathentry kind="lib" path="C:/lib/saaj-impl.jar"/>
+	<classpathentry kind="lib" path="C:/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="C:/lib/mail.jar"/>
+	<classpathentry kind="lib" path="C:/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/lib/dom.jar"/>
+	<classpathentry kind="lib" path="C:/lib/activation.jar"/>
+	<classpathentry kind="lib" path="C:/lib/xalan.jar"/>
+	<classpathentry kind="lib" path="C:/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

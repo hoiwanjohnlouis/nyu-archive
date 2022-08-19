@@ -1,0 +1,1 @@
+select product_name, product_description, product_category, price from products

@@ -1,0 +1,357 @@
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 200000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 80000.0
+
+Id: 3
+Legal Name: Pepsi Cola Company Inc.
+Street: 344, East 7th Avenue
+Trade Names:
+Trade Name: Pepsi
+Trade Name: Pep-Pop
+Profit: 4000000.0
+Tax Rate: Highest(40%)
+Tax: 1600000.0
+Ceo's Income: 300000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 120000.0
+
+Id: 5
+Legal Name: Fanta Inc.
+Street: 12-23, 102nd Street
+Trade Names:
+Trade Name: Fanta
+Trade Name: Fonta
+Profit: 1000000.0
+Tax Rate: Highest(40%)
+Tax: 400000.0
+Ceo's Income: 400000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 160000.0
+
+	Finally closing all streams.
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 1111111
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 444444.4
+
+Id: 3
+Legal Name: Pepsi Cola Company Inc.
+Street: 344, East 7th Avenue
+Trade Names:
+Trade Name: Pepsi
+Trade Name: Pep-Pop
+Profit: 4000000.0
+Tax Rate: Highest(40%)
+Tax: 1600000.0
+Ceo's Income: 2222222
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 888888.8
+
+	Leaving NegativeIncomeException Constructor with int anyIncome
+	Error Message:Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :6
+	NickName  :Fanta Inc.
+	Income    :0
+	TaxBracket:0
+Trying to use income:-3333333
+
+	Finally closing all streams.
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 7777777
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 3111110.8000000003
+
+	Leaving NegativeIncomeException Constructor with int anyIncome
+Error Message:Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :4
+	NickName  :Pepsi Cola Company Inc.
+	Income    :0
+	TaxBracket:0
+Trying to use income:-8888888
+
+Id: 5
+Legal Name: Fanta Inc.
+Street: 12-23, 102nd Street
+Trade Names:
+Trade Name: Fanta
+Trade Name: Fonta
+Profit: 1000000.0
+Tax Rate: Highest(40%)
+Tax: 400000.0
+Ceo's Income: 100000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 40000.0
+
+	Finally closing all streams.
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 200000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 80000.0
+
+Id: 3
+Legal Name: Pepsi Cola Company Inc.
+Street: 344, East 7th Avenue
+Trade Names:
+Trade Name: Pepsi
+Trade Name: Pep-Pop
+Profit: 4000000.0
+Tax Rate: Highest(40%)
+Tax: 1600000.0
+Ceo's Income: 300000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 120000.0
+
+Id: 5
+Legal Name: Fanta Inc.
+Street: 12-23, 102nd Street
+Trade Names:
+Trade Name: Fanta
+Trade Name: Fonta
+Profit: 1000000.0
+Tax Rate: Highest(40%)
+Tax: 400000.0
+Ceo's Income: 400000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 160000.0
+
+	Finally closing all streams.
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 1111111
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 444444.4
+
+Id: 3
+Legal Name: Pepsi Cola Company Inc.
+Street: 344, East 7th Avenue
+Trade Names:
+Trade Name: Pepsi
+Trade Name: Pep-Pop
+Profit: 4000000.0
+Tax Rate: Highest(40%)
+Tax: 1600000.0
+Ceo's Income: 2222222
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 888888.8
+
+	Leaving NegativeIncomeException Constructor with int anyIncome
+	Error Message:Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :6
+	NickName  :Fanta Inc.
+	Income    :0
+	TaxBracket:0
+Trying to use income:-3333333
+
+	Finally closing all streams.
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 7777777
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 3111110.8000000003
+
+	Leaving NegativeIncomeException Constructor with int anyIncome
+Error Message:Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :4
+	NickName  :Pepsi Cola Company Inc.
+	Income    :0
+	TaxBracket:0
+Trying to use income:-8888888
+
+Id: 5
+Legal Name: Fanta Inc.
+Street: 12-23, 102nd Street
+Trade Names:
+Trade Name: Fanta
+Trade Name: Fonta
+Profit: 1000000.0
+Tax Rate: Highest(40%)
+Tax: 400000.0
+Ceo's Income: 100000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 40000.0
+
+	Finally closing all streams.
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 200000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 80000.0
+
+Id: 3
+Legal Name: Pepsi Cola Company Inc.
+Street: 344, East 7th Avenue
+Trade Names:
+Trade Name: Pepsi
+Trade Name: Pep-Pop
+Profit: 4000000.0
+Tax Rate: Highest(40%)
+Tax: 1600000.0
+Ceo's Income: 300000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 120000.0
+
+Id: 5
+Legal Name: Fanta Inc.
+Street: 12-23, 102nd Street
+Trade Names:
+Trade Name: Fanta
+Trade Name: Fonta
+Profit: 1000000.0
+Tax Rate: Highest(40%)
+Tax: 400000.0
+Ceo's Income: 400000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 160000.0
+
+	Finally closing all streams.
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 1111111
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 444444.4
+
+Id: 3
+Legal Name: Pepsi Cola Company Inc.
+Street: 344, East 7th Avenue
+Trade Names:
+Trade Name: Pepsi
+Trade Name: Pep-Pop
+Profit: 4000000.0
+Tax Rate: Highest(40%)
+Tax: 1600000.0
+Ceo's Income: 2222222
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 888888.8
+
+	Leaving NegativeIncomeException Constructor with int anyIncome
+	Error Message:Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :6
+	NickName  :Fanta Inc.
+	Income    :0
+	TaxBracket:0
+Trying to use income:-3333333
+
+	Finally closing all streams.
+Id: 1
+Legal Name: Coca Cola Company Inc.
+Street: 1234, West 4th Street
+Trade Names:
+Trade Name: Coke
+Trade Name: Coca Cola
+Profit: 5000000.0
+Tax Rate: Highest(40%)
+Tax: 2000000.0
+Ceo's Income: 7777777
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 3111110.8000000003
+
+	Leaving NegativeIncomeException Constructor with int anyIncome
+Error Message:Negative Income Exception
+	nyu.java1.corporation.Employee Object
+	ID        :4
+	NickName  :Pepsi Cola Company Inc.
+	Income    :0
+	TaxBracket:0
+Trying to use income:-8888888
+
+Id: 5
+Legal Name: Fanta Inc.
+Street: 12-23, 102nd Street
+Trade Names:
+Trade Name: Fanta
+Trade Name: Fonta
+Profit: 1000000.0
+Tax Rate: Highest(40%)
+Tax: 400000.0
+Ceo's Income: 100000
+Ceo's Tax Info:
+Tax Rate: Highest(40%)
+Tax: 40000.0
+
+	Finally closing all streams.

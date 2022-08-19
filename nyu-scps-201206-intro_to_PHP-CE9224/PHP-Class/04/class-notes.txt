@@ -1,0 +1,1 @@
+use  $_SERVER['REQUEST_METHOD'] global to verify POST or GET.   Testing ($_POST) and ($_GET) is insufficient to verify

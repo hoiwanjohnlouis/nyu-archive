@@ -1,0 +1,3 @@
+use PDO->query for "SELECT"
+use PDO->exec for "UPDATE", "DELETE" or "INSERT"
+

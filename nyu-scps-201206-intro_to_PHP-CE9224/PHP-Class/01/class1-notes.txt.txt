@@ -1,0 +1,26 @@
+﻿http://davehauenstein.com/nyu/INFO1-CE9224-2012-Summer/
+
+
+user=nyuscps
+pswd=$nyuscps$
+
+
+
+
+javascript runs on the browser only
+
+
+there is a project to allow javascript on the server,
+
+
+AJAX  asynchronus javascript and XML
+
+
+php.net
+
+
+must change two valued in php.ini
+
+
+error_reporting = E_ALL | E_STRICT
+display_errors = On

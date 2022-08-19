@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n1:note id="123" type="general" xmlns:n1="http://www.nyu.edu/scps/jpi/session10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nyu.edu/scps/jpi/session10 note.xsd">
+	<to>Anan Rahman</to>
+	<from>Mohammed Rahman</from>
+	<heading>Invitation</heading>
+	<body>Let's go fishing this weekend</body>
+</n1:note>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+    <display-name>Session7 Servlets Homework</display-name>
+    <description>Session7 Servlets Homework</description>
+
+		<!--
+			Homework7 Part 1
+		-->
+    <servlet>
+        <servlet-name>SorryServlet</servlet-name>
+        <servlet-class>SorryServlet</servlet-class>
+        <init-param>
+          <param-name>debug</param-name>
+          <param-value>9</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SorryServlet</servlet-name>
+        <url-pattern>/SorryServlet</url-pattern>
+    </servlet-mapping>
+
+		<!--
+			Homework7 Part 2
+		-->
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <servlet-class>RedirectServlet</servlet-class>
+        <init-param>
+          <param-name>debug</param-name>
+          <param-value>9</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RedirectServlet</servlet-name>
+        <url-pattern>/RedirectServlet</url-pattern>
+    </servlet-mapping>
+
+		<!--
+			Homework7 Part 3
+		-->
+    <servlet>
+        <servlet-name>ErrorServlet</servlet-name>
+        <servlet-class>ErrorServlet</servlet-class>
+        <init-param>
+          <param-name>debug</param-name>
+          <param-value>9</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ErrorServlet</servlet-name>
+        <url-pattern>/ErrorServlet</url-pattern>
+    </servlet-mapping>
+
+		<!--
+			Homework7 Part 4
+		-->
+    <servlet>
+        <servlet-name>RandomServlet</servlet-name>
+        <servlet-class>RandomServlet</servlet-class>
+        <init-param>
+          <param-name>debug</param-name>
+          <param-value>9</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RandomServlet</servlet-name>
+        <url-pattern>/RandomServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>

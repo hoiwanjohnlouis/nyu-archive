@@ -1,0 +1,26 @@
+class7 notes
+
+square brackets defines character sets.
+
+round brackets defines subsets  
+/(gmail.com)/ for hoiwanlouis@gmail.com will be true
+
+* zero or more times
++ one or more times
+? once or none
+
+http://davehauenstein.com/nyu/INFO1-CE9224-2012-Summer/code/regex.php
+solution 
+"/^[-_a-z0-9]{7,17}$/i"
+
+
+http://www.codinghorror.com/blog/2008/06/regular-expressions-now-you-have-two-problems.html
+http://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/ref=sr_1_1?ie=UTF8&qid=1335396847&sr=8-1
+http://www.regular-expressions.info/
+http://www.solmetra.com/scripts/regex/index.php
+http://net.tutsplus.com/tutorials/other/8-regularexpressions-you-should-know/
+
+
+File access
+
+

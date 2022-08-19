@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree:root addr:language="us-en" xmlns:tree="http://www.nyu.edu/jws/Tree" xmlns:addr="http://www.nyu.edu/jws/Address" xsi:schemaLocation="http://www.nyu.edu/jws/Tree root_with_target.xsd http://www.nyu.edu/jws/Address Address.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.nyu.edu/jws/Point">
+	<addr:address addr:language="us-en" addr:category="work" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<addr:street>121 River Street</addr:street>
+		<addr:city>Hoboken</addr:city>
+		<addr:state>NJ</addr:state>
+		<addr:zip>07030</addr:zip>
+	</addr:address>
+</tree:root>

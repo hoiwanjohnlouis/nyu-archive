@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aegis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aegis_standalone" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/callback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configuration_interceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/groovy_spring_support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/in_jvm_transport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_first_jaxws" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_first_jaxws_factory_bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_first_jms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_first_pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_first_spring_support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jax_rs/basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jax_rs/basic_https" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jax_rs/content_negotiation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jax_rs/spring_security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jax_server_aegis_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jaxws_async" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jaxws_dispatch_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jaxws_handlers" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jms-spec-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jms_pubsub" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jms_queue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jms_spring_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js_browser_client_java_first" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js_browser_client_simple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logbrowser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mtom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/restful_dispatch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/restful_http_binding" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruby_spring_support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soap_header" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ws_addressing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ws_notification" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ws_policy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ws_rm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ws_security/sign_enc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ws_security/ut" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ws_security/ut_policy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ws_security/ut_sign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wsdl_first" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wsdl_first_dynamic_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wsdl_first_https" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wsdl_first_pure_xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wsdl_first_rpclit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wsdl_first_soap12" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wsdl_first_xml_wrapped" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wsdl_first_xmlbeans" charset="UTF-8" />
+  </component>
+</project>

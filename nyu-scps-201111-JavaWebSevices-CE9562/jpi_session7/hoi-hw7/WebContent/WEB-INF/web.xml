@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+    <display-name>Session7 Servlets Homework</display-name>
+    <description>Session7 Servlets Homework</description>
+
+    <!--
+      Hoi-Homework7-Part1
+    -->
+    <servlet>
+        <servlet-name>Hoi-Homework7-Part1</servlet-name>
+        <servlet-class>edu.nyu.jws.hoi7.SorryServlet</servlet-class>
+        <init-param>
+          <param-name>debug</param-name>
+          <param-value>9</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hoi-Homework7-Part1</servlet-name>
+        <url-pattern>/SorryServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--
+      Hoi-Homework7-Part2
+    -->
+    <servlet>
+        <servlet-name>Hoi-Homework7-Part2</servlet-name>
+        <servlet-class>edu.nyu.jws.hoi7.RedirectServlet</servlet-class>
+        <init-param>
+          <param-name>debug</param-name>
+          <param-value>9</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hoi-Homework7-Part2</servlet-name>
+        <url-pattern>/RedirectServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--
+      Hoi-Homework7-Part3
+    -->
+    <servlet>
+        <servlet-name>Hoi-Homework7-Part3</servlet-name>
+        <servlet-class>edu.nyu.jws.hoi7.ErrorServlet</servlet-class>
+        <init-param>
+          <param-name>debug</param-name>
+          <param-value>9</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hoi-Homework7-Part3</servlet-name>
+        <url-pattern>/ErrorServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--
+      Hoi-Homework7-Part4
+    -->
+    <servlet>
+        <servlet-name>Hoi-Homework7-Part4</servlet-name>
+        <servlet-class>edu.nyu.jws.hoi7.RandomServlet</servlet-class>
+        <init-param>
+          <param-name>debug</param-name>
+          <param-value>9</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hoi-Homework7-Part4</servlet-name>
+        <url-pattern>/RandomServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>

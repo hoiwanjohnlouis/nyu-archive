@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree:root xmlns:tree="http://www.nyu.edu/jws/Tree"  xsi:schemaLocation="http://www.nyu.edu/jws/Tree root_with_target.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.nyu.edu/jws/Point">
+	<tree:title>This is a test title</tree:title>
+	<tree:body>This is a test body</tree:body>
+</tree:root>

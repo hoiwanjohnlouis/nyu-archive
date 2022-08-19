@@ -1,0 +1,86 @@
+<?php
+
+/***************************************************
+* Assignment 1                                     *
+****************************************************/
+
+echo "\n------------\n";
+echo "Assignment 1\n";
+echo "------------\n\n";
+
+$num = 4;
+echo $num       . "\n";
+$num++;         // increment by 1
+echo $num       . "\n";
+$num += 1;      // increment by 1
+echo $num       . "\n";
+$num = $num +1; // increment by 1
+echo $num       . "\n";
+
+var_dump($num);       // dump as an integer
+$num = (string) $num;
+var_dump($num);       // dump as a string
+
+/***************************************************
+* Assignment 2                                     *
+****************************************************/
+
+echo "\n------------\n";
+echo "Assignment 2\n";
+echo "------------\n\n";
+
+$num1 = 5;
+$num2 = 12;
+$num3 = "5";
+
+var_dump( ($num1 == $num2) );    // 1. equal to the second value
+var_dump( ($num1 == $num3) );    // 2. equal to the third value
+var_dump( ($num1 === $num3) );   // 3. identical to the third value
+var_dump( ($num1 > $num2) );     // 4. greater than the second value
+var_dump( ($num1 <= $num2) );    // 5. less than or equal to the second value
+var_dump( ($num1 != $num2) );    // 6. not equal to the second value
+var_dump( !($num1 == $num2) );   // 6. not equal to the second value
+
+/***************************************************
+* Assignment 3                                     *
+****************************************************/
+
+echo "\n------------\n";
+echo "Assignment 3\n";
+echo "------------\n\n";
+
+/***************************************************
+* NOTE:                                            *
+* Many notations use "^" as a power operator,      *
+* but in PHP (and other C-based languages) that is *
+* actually the XOR operator. You need to use this  *
+* 'pow' function, there is no power operator.      *
+****************************************************/
+
+$radius    = 7.4;
+$perimeter = 2 * M_PI * $radius;
+$area      = M_PI * pow(2, $radius);
+$volume    = (4/3) * M_PI * pow(3, $radius);
+
+echo "A circle with a radius of 7.4 has a perimeter of {$perimeter}.\n";
+echo "A circle with a radius of 7.4 has an area of {$area}.\n";
+echo "A sphere with a radius of 7.4 has a volume of {$volume}.\n\n";
+
+$sides     = 14;
+$perimeter = 4 * $sides;
+$area      = pow(2, $sides);
+$volume    = pow(3, $sides);
+
+echo "A square with sides equal to 14 has a perimeter of {$perimeter}.\n";
+echo "A square with sides equal to 14 has an area of {$area}.\n";
+echo "A cube with sides equal to 14 has a volume of {$volume}.\n\n";
+
+$height     = 3;
+$base       = 4;
+$hypotenuse = 5;
+$perimeter  = $base + $height + $hypotenuse;
+$area       = $base * $height / 2;
+
+echo "A right triangle with a height of 3, base of 4, and hypotenuse of 5 has a perimeter of {$perimeter}\n";
+echo "A right triangle with a height of 3, base of 4, and hypotenuse of 5 has an area of {$area}\n\n";
+

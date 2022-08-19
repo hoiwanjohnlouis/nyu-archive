@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>JPIDemo8VStore</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MusicCatalogServlet</display-name>
+    <servlet-name>MusicCatalogServlet</servlet-name>
+    <servlet-class>servlet.MusicCatalogServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MusicCatalogServlet</servlet-name>
+    <url-pattern>/MusicCatalogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddToShoppingCartServlet</display-name>
+    <servlet-name>AddToShoppingCartServlet</servlet-name>
+    <servlet-class>servlet.AddToShoppingCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddToShoppingCartServlet</servlet-name>
+    <url-pattern>/AddToShoppingCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ShowShoppingCartServlet</display-name>
+    <servlet-name>ShowShoppingCartServlet</servlet-name>
+    <servlet-class>servlet.ShowShoppingCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowShoppingCartServlet</servlet-name>
+    <url-pattern>/ShowShoppingCartServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>MusicCatalogServletWithDataSource</display-name>
+    <servlet-name>MusicCatalogServletWithDataSource</servlet-name>
+    <servlet-class>servlet.MusicCatalogServletWithDataSource</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MusicCatalogServletWithDataSource</servlet-name>
+    <url-pattern>/MusicCatalogServletWithDataSource</url-pattern>
+  </servlet-mapping>
+</web-app>

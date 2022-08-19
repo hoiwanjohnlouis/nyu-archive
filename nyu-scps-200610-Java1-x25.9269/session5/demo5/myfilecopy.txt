@@ -1,0 +1,2 @@
+This is line1 in myfile.txt
+This is line2 in myfile.txt

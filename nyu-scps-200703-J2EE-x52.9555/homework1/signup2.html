@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD><TITLE>HTML Form Demo</TITLE></HEAD>
+	<BODY><H3>Please enter the following information:</H3>
+		<FORM method="POST" action="http://localhost:8080/servlets-examples/servlet/RequestInfoExample">
+			<TABLE>
+				<TR>
+					<TD>Name</TD>
+					<TD><INPUT type="text" name="user_name" value="" size=40></TD>
+				</TR>
+				<TR>
+					<TD>Password</TD>
+					<TD><INPUT type="password" name="user_password"  size=20></TD>
+				</TR>
+			</TABLE>
+			Member of class e-mail list
+			<INPUT type="checkbox" name="email_account" value="true">
+			<BR>
+			<BR>
+			Grading policy:
+			<TABLE border="1" cellspacing="15">
+				<TR>
+					<TD>Letter Grade<INPUT type="radio" name="grade" value="LG"></TD>
+					<TD>Pass/Fail<INPUT type="radio" name="grade" value="PF"></TD>
+					<TD>Non-Evaluative<INPUT type="radio" name="grade" value="NE"></TD>
+					<TD>Incomplete<INPUT type="radio" name="grade" value="IC"></TD>
+				</TR>
+			</TABLE>
+			<BR>
+			Programming Skill
+			<BR>
+			<SELECT name="skill">
+				<OPTION value="E">Experienced Programmer
+				<OPTION value="I">Intermediate Programmer
+				<OPTION value="B">Beginner
+			</SELECT>
+			<BR>
+			<BR>
+			Web Server
+			<BR>
+			<SELECT name="webserver" size="3" multiple>
+				<OPTION value="T">Just Tomcat
+				<OPTION value="A">Tomcat and Apache
+				<OPTION value="I">Tomcat and IIS
+				<OPTION value="O">Others
+			</SELECT>
+			<BR>
+			<BR>
+			Comments
+			<BR>
+			<TEXTAREA name="Comments" rows="5" cols="50" wrap=soft>
+			</TEXTAREA>
+			<BR>
+			<BR>
+			<INPUT type="submit" value="Send"> <input type="reset" value="Clear">
+		</FORM>
+	</BODY>
+</HTML>

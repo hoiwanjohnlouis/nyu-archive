@@ -1,0 +1,68 @@
+http://davehauenstein.com/nyu/INFO1-CE9224-2012-Summer/
+
+
+user=nyuscps
+pswd=$nyuscps$
+
+
+
+dah16@nyu.edu
+
+
+webservices class
+http://oit.scps.nyu.edu/~louish/ 
+
+FTP login credentials
+ALL lower case
+1. server name = oit.scps.nyu.edu
+2. user = First7LettersOfLastNamee
+          +FirsNameInitial
+          louish
+3. pswd = FirstNameInitial
+          +LastNameInitial
+          +"123890"
+          hl123890
+4. port = 22=sftp;21=ftp
+
+
+
+webservices class
+http://hwtechservices.info/_introduction_to_PHP
+customer number/login id=50912176
+pswd=Iyjnuofs637_!
+pin=2447
+AlertEmail=hoiwanjohnlouis@gmail.com
+
+
+
+AlertEmail=hwjl8888@gmail.com
+AlertEmail=hwjl8888@hotmail.com
+
+
+www.hwtechservices.info
+email=info@hwtechservices.info
+pswd=bfeotxh1info
+email=info2@hwtechservices.info
+pswd=bfeotxh1info2
+email=hoiwanlouis@hwtechservices.info
+pswd=Iyjnuofs637_!
+
+
+FTP Admin
+domain=ftp.hwtechservices.info
+user=hwte3979
+pswd=Iyjnuofs637_!
+
+FTP User
+domain=ftp.hwtechservices.info
+user=infoftp637
+pswd=Iyjnuofs637_!
+
+White GoDaddy.com Certified Domain Seal
+<span id=”cdSiteSeal1”><script type=”text/javascript” src=”//tracedseals.starfieldtech.com/siteseal/get?scriptId=cdSiteSeal1&amp;cdSealType=Seal1&amp;sealId=55e4ye7y7mb73932c0e24e0dc4c2e47ey7mb7355e4ye75a4425b06071858f7d2”></script></span>
+Charcoal GoDaddy.com Certified Domain Seal
+<span id=”cdSiteSeal2”><script type=”text/javascript” src=”//tracedseals.starfieldtech.com/siteseal/get?scriptId=cdSiteSeal2&amp;cdSealType=Seal2&amp;sealId=55e4ye7y7mb73932c0e24e0dc4c2e47ey7mb7355e4ye75a4425b06071858f7d2”></script></span>
+Graphic GoDaddy.com Certified Domain Seal
+<span id=”cdSiteSeal3”><script type=”text/javascript” src=”//tracedseals.starfieldtech.com/siteseal/get?scriptId=cdSiteSeal3&amp;cdSealType=Seal3&amp;sealId=55e4ye7y7mb73932c0e24e0dc4c2e47ey7mb7355e4ye75a4425b06071858f7d2”></script></span>
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Lab</title>
+    </head>
+    <body id="home-page" class="">
+        <ul>
+            <li>
+                Tech
+                <ul>
+                    <li><a href="tools.php">Tools</a></li>
+                    <li><a href="media.php">Media</a></li>
+                    <li><a href="enterprise.php">Enterprise</a></li>
+                </ul>
+            </li>
+            <li>
+                Finance
+                <ul>
+                    <li><a href="markets.php">Markets</a></li>
+                    <li><a href="money.php">Your Money</a></li>
+                    <li><a href="broker.php">Broker Center</a></li>
+                </ul>
+            </li>
+            <li>
+                Politics
+                <ul>
+                    <li><a href="politics.php">Politics Home</a></li>
+                    <li><a href="defense.php">Defense</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </body>
+</html>

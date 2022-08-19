@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by osipova (EMBRACE) -->
+<!-- 
+		  Java Web Services - HW #10;  Hoi Wan Louis
+		  2) Define an xml schema Car.xsd for the following datatypes related to Car. The target namespace of the types would be:
+        http://www.scps.nyu.edu/jws/CarManagement and local elements are qualified but local attributes are not qualified at all.
+			c)  AbstractVehicleType – This datatype is abstract and would contain the following fields in sequence:
+			  1) color -  string – one occurance only
+			  2) make – string – one occurance only
+			  3) model – string – one occurance only
+			  4) owner – "ExtendedNameType" one to unlimited occurances, however, owner id must be unique when there are multiples.
+			  5) type – string – one occurance only
+			  6) year – int – one occurance only
+			  7) VIN -  string attribute VIN that is required. 
+			d)  CarType - This datatype would extend from AbstractVehicleType and add the following two fields in sequence:
+			  1)  plateNumber – string – one occurance only
+			  2)  registrationNumber – string – one occurance only
+			  3)  state – TriStateType containing values ‘NY’,’NJ’,’CT’ – one occurance only
+			  4)  price – CarPriceType cotaining a range of 1000 to 1000000 both inclusive with the mask of no decimal – one occurance only
+			  There will be no further extension of CarType allowed in the schema.
+		  Finally, define a global element called car that is of type Car. 
+-->
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" 'http://www.w3.org/2001/XMLSchema.dtd'>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wheels="http://www.scps.nyu.edu/jws/CarManagement" xmlns:name="http://www.scps.nyu.edu/jws/Name" targetNamespace="http://www.scps.nyu.edu/jws/CarManagement" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.scps.nyu.edu/jws/Name" schemaLocation="./name.xsd"/>
+	<xs:element name="car" type="wheels:CarType">
+		<xs:unique name="uniqueID">
+			<xs:selector xpath="wheels:owner"/>
+			<xs:field xpath="@name:id"/>
+		</xs:unique>
+	</xs:element>
+	<xs:complexType name="AbstractVehicleType" abstract="true">
+		<xs:sequence>
+			<xs:element name="color" type="xs:string"/>
+			<xs:element name="make" type="xs:string"/>
+			<xs:element name="model" type="xs:string"/>
+			<xs:element name="owner" type="name:ExtendedNameType" maxOccurs="unbounded"/>
+			<xs:element name="type" type="xs:string"/>
+			<xs:element name="year" type="xs:int"/>
+		</xs:sequence>
+		<xs:attribute name="VIN"  type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="CarType" final="extension">
+		<xs:complexContent>
+			<xs:extension base="wheels:AbstractVehicleType">
+				<xs:sequence>
+					<xs:element name="plateNumber " type="xs:string"/>
+					<xs:element name="registrationNumber" type="xs:string"/>
+					<xs:element name="state" type="wheels:TriStateType"/>
+					<xs:element name="price" type="wheels:CarPriceType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="TriStateType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="NY"/>
+			<xs:enumeration value="NJ"/>
+			<xs:enumeration value="CT"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CarPriceType">
+		<xs:restriction base="xs:nonNegativeInteger">
+			<xs:minInclusive value="1000"/>
+			<xs:maxInclusive value="1000000"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

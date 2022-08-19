@@ -1,0 +1,116 @@
+<?php
+
+/**
+*/
+function getSubmitInput ( $label, $name, $val = "" ) 
+{
+    $ret = null;
+    if ( isset( $name ) ) {
+        $template = '<input type="submit" name="%s" id="%s" value="%s" /><br />' . "\n";
+        $ret = sprintf(
+                $template,
+                $name,
+                $name,
+                $val
+                );
+    }
+    else {
+        $ret = false;
+    }
+//    var_dump( $ret );
+    return $ret;
+}
+
+/**
+*/
+function getTextInput ( $label, $name, $val = "" ) 
+{
+  	$ret = null;
+  	if ( isset( $name ) ) {
+        $template  = '<label for="%s">%s</label>' . "\n";
+      	$template .= '<input type="text" name="%s" id="%s" value="%s" /><br />';
+    	  $ret = sprintf(
+			        $template,
+              $name,
+              $label,
+              $name,
+              $name,
+        			$val
+    			    );
+    }
+	  else {
+		    $ret = false;
+	  }
+//    var_dump( $ret );
+	  return $ret;
+}
+
+/**
+*/
+function getTextArea ( $label, $name, $val = "" ) 
+{
+  	$ret = null;
+    if ( isset( $name ) ) {
+        $template  = '<label for="%s">%s</label>' . "\n";
+	      $template .= '<textarea type="text" name="%s" id="%s" value="%s" >%s</textarea><br />';
+       	$ret = sprintf(
+  			        $template,
+                $name,
+                $label,
+                $name,
+                $name,
+                $val,
+                $label
+			          );
+    }
+	  else {
+	 	    $ret = false;
+	  }
+//    var_dump( $ret );
+	  return $ret;
+}
+
+/**
+*/
+function createHTML( $fields ) 
+{
+    $ret = null;
+    if ( is_array($fields) ) {
+        foreach($fields as $items => $detail) {
+            $field = '';
+            switch( $detail['type'] ) {
+                case 'text':;
+                    $field = getTextInput(
+                                $detail['label'],
+                                $detail['name'],
+                                $detail['value']
+                              );
+                break;
+
+                case 'textarea':;
+                    $field = getTextArea(
+                                $detail['label'],
+                                $detail['name'],
+                                $detail['value']
+                              );
+                break;
+
+                case 'submit':;
+                    $field = getSubmitInput(
+                                $detail['label'],
+                                $detail['name'],
+                                $detail['value']
+                              );
+                break;
+            }
+
+            if ($field) {
+                $ret = $ret . '<li>' . $field . '</li>' . "\n"; 
+            }
+        }
+    }
+//    var_dump( $ret );
+    return $ret;
+}
+
+?>

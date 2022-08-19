@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?GradeStudents totalpoints="100" ?>
+<Student-List xmlns="http://nyu.edu/isp" xmlns:stu="http://Students.org/TR">
+	<stu:Student id='000001'>
+		<Name>John P Smith</Name>
+		<Grading>Letter</Grading>
+		<Score>78</Score>
+	</stu:Student>
+	<stu:Student id='000002'>
+		<Name>Cathy Beckford</Name>
+		<Grading>PassFail</Grading>
+		<Score>67</Score>
+	</stu:Student>
+	<stu:Student id='000003'>
+		<Name>Bob Leonard</Name>
+		<Grading>NonEval</Grading>
+		<Score>45</Score>
+	</stu:Student>
+</Student-List>

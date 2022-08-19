@@ -1,0 +1,13 @@
+
+Attached are the two projects I demoed yesterday. Since the size of the jars are two big I had to remove them from JPIDemo11WS project.
+
+Here is what you have to do:
+
+a)	Import the two projects in your eclipse.
+b)	Download apache-cxf-2.5.1 zipped binary.
+c)	Unzip.
+d)	Copy the content of the ‘lib’ folder of CXF (including the endorsed sub-folder) into JPIDemo11WS projects WebContent\WEB-INF\lib folder.
+e)	Start the app
+f)	Run the client and you should be in business.
+g)	
+

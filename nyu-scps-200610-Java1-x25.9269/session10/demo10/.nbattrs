@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="ShowOptionAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="ShowOptionAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="ShowOptionAddedJFrame.InnerActionListener"/>
+    </fileobject>
+    <fileobject name="JCheckBoxAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="JCheckBoxAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ItemListener" stringvalue="JCheckBoxAddedJFrame.InnnerItemListener"/>
+    </fileobject>
+    <fileobject name="ShowInputAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="ShowInputAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="ShowInputAddedJFrame.InnerActionListener"/>
+    </fileobject>
+    <fileobject name="ShowMessageAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="ShowMessageAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="ShowMessageAddedJFrame.InnerActionListener"/>
+    </fileobject>
+    <fileobject name="JMenuAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="JMenuAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="JMenuAddedJFrame.InnerActionListener"/>
+        <attr name="class_dependency_java.awt.event.ItemListener" stringvalue="JMenuAddedJFrame.InnerItemListener"/>
+    </fileobject>
+    <fileobject name="JListAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="JListAddedJFrame"/>
+        <attr name="class_dependency_javax.swing.event.ListSelectionListener" stringvalue="JListAddedJFrame.InnerListSelectionListener"/>
+    </fileobject>
+    <fileobject name="JTextComponentAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="JTextComponentAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="JTextComponentAddedJFrame.InnerActionListener"/>
+    </fileobject>
+    <fileobject name="JComboAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="JComboAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="JComboAddedJFrame.InnerActionListener"/>
+    </fileobject>
+    <fileobject name="JRadioButtonAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="JRadioButtonAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="JRadioButtonAddedJFrame.InnerActionListener"/>
+    </fileobject>
+    <fileobject name="ShowConfirmAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="ShowConfirmAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="ShowConfirmAddedJFrame.InnerActionListener"/>
+    </fileobject>
+    <fileobject name="JButtonAddedJFrame.java">
+        <attr name="class_dependency_ClosableJFrame" stringvalue="JButtonAddedJFrame"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="JButtonAddedJFrame.InnerActionListener"/>
+    </fileobject>
+    <fileobject name="ClosableJFrame.java">
+        <attr name="EA-OpenIDE-Connection" serialvalue="aced0005737200146a6176612e7574696c2e4c696e6b65644c6973740c29535d4a608822030000787077040000000b7372002a6f72672e6f70656e6964652e6c6f61646572732e436f6e6e656374696f6e537570706f72742450616972055f8af6f04a3bd80200024c00047479706574002b4c6f72672f6f70656e6964652f636f6f6b6965732f436f6e6e656374696f6e436f6f6b696524547970653b4c000576616c75657400124c6a6176612f6c616e672f4f626a6563743b78707372002e6f72672e6e65746265616e732e6d6f64756c65732e6a6176612e4a617661436f6e6e656374696f6e732454797065a83dd01001306d7402000149000666696c746572787000000050737200436f72672e6e65746265616e732e6d6f64756c65732e6a6176612e4a617661446174614f626a6563742450657273697374656e74436f6e6e656374696f6e48616e646c65ba16f1d2dd4c1cb60200014c000e646174614e6f646548616e646c6574001f4c6f72672f6f70656e6964652f6e6f6465732f4e6f64652448616e646c653b7870737200296f72672e6f70656e6964652e6c6f61646572732e446174614e6f6465244f626a65637448616e646c655bd0f82e01811d2e0200025a0005636c6f6e654c00036f626a7400244c6f72672f6f70656e6964652f66696c6573797374656d732f46696c654f626a6563743b787000737200326f72672e6f70656e6964652e66696c6573797374656d732e416273747261637446696c654f626a656374245265706c616365896fa1bce4b5219f0200024c000866696c654e616d657400124c6a6176612f6c616e672f537472696e673b4c000666734e616d6571007e000f78707400174a427574746f6e41646465644a4672616d652e6a617661740019433a2f6a617661312f73657373696f6e31302f64656d6f31307371007e00027371007e0006000000507371007e00087371007e000b007371007e000e7400194a436865636b426f7841646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e7400164a436f6d626f41646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e7400154a4c69737441646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e7400154a4d656e7541646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e74001c4a526164696f427574746f6e41646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e74001e4a54657874436f6d706f6e656e7441646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e74001b53686f77436f6e6669726d41646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e74001953686f77496e70757441646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e74001b53686f774d65737361676541646465644a4672616d652e6a61766171007e00127371007e00027371007e0006000000507371007e00087371007e000b007371007e000e74001a53686f774f7074696f6e41646465644a4672616d652e6a61766171007e001278"/>
+        <attr name="class_dependency_java.awt.event.WindowAdapter" stringvalue="ClosableJFrame.InnerWindowListener"/>
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="ClosableJFrame"/>
+    </fileobject>
+    <fileobject name="JListAddedJApplet.java">
+        <attr name="class_dependency_javax.swing.JApplet" stringvalue="JListAddedJApplet"/>
+        <attr name="class_dependency_javax.swing.event.ListSelectionListener" stringvalue="JListAddedJApplet.InnerListSelectionListener"/>
+    </fileobject>
+    <fileobject name="SelfClosingJFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="SelfClosingJFrame"/>
+    </fileobject>
+</attributes>

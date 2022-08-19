@@ -1,0 +1,14 @@
+if GET {
+	print form
+
+}
+else POST {
+	print data 
+}
+
+
+
+use isset.   ERRORS must be turned on in PHP.ini
+
+use one php file.
+

@@ -1,0 +1,10 @@
+﻿class05 noted.  wed july 11, 2012
+
+
+1.  create  functions.php which contains all your worker functions. just include functions.php in your application php.
+
+
+2.  anonymous functions are also called “closure” .   
+
+
+3.

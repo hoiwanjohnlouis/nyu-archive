@@ -1,0 +1,63 @@
+DROP TABLE IF EXISTS `products`;
+CREATE TABLE `products` (
+    `id` int UNSIGNED NOT NULL auto_increment,
+    `product_name` varchar(255) NOT NULL,
+    `product_description` text NOT NULL DEFAULT '',
+    `product_category` enum('book','movie') NOT NULL,
+    `date_created` timestamp NOT NULL DEFAULT NOW(),
+    `price` float NOT NULL DEFAULT 0.00,
+    primary key (`id`)
+)ENGINE=InnoDB;
+
+INSERT INTO `products`
+    (`product_name`, `product_description`, `product_category`, `price`)
+VALUES
+    ('Independence Day', 'Aliens are coming', 'movie', 19.99),
+    ('Good Will Hunting', 'Janitor with a gift for math', 'movie', 13.49),
+    ('People\'s History Of The United States', 'America\'s Story', 'book', 12.99),
+    ('Physics for Dummies', 'Intro to Physics', 'book', 11.99);
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+    `id` int UNSIGNED NOT NULL auto_increment,
+    `username` varchar(255) NOT NULL,
+    `password` varchar(255) NOT NULL,
+    `first_name` varchar(255) NOT NULL,
+    `last_name` varchar(255) NOT NULL,
+    `email` varchar(255) NOT NULL,
+    `date_created` timestamp NOT NULL DEFAULT NOW(),
+    PRIMARY KEY (`id`),
+    UNIQUE (`username`),
+    UNIQUE (`email`)
+)ENGINE=InnoDB;
+
+INSERT INTO `users`
+    (`username`, `password`, `first_name`, `last_name`, `email`)
+VALUES
+    ('aeinstein', SHA1('eEqualzMC2'), 'Albert', 'Einstein', 'aeinstein@gmail.com'),
+    ('bfranklin', SHA1('electricityFTW'), 'Ben', 'Franlin', 'bfranklin@yahoo.com'),
+    ('bcosby', SHA1('eatDaPuddin'), 'Bill', 'Cosby', 'bcosby@aol.com');
+
+DROP TABLE IF EXISTS `orders`;
+CREATE TABLE `orders` (
+    `id` int UNSIGNED NOT NULL auto_increment,
+    `order_id` varchar(255) NOT NULL,
+    `product_id` int UNSIGNED NOT NULL,
+    `user_id` int UNSIGNED NOT NULL,
+    `date_created` timestamp NOT NULL DEFAULT NOW(),
+    PRIMARY KEY (`id`),
+    KEY `order_user` (`order_id`, `user_id`),
+    KEY `product_user` (`product_id`, `user_id`)
+);
+
+INSERT INTO `orders`
+    (`order_id`, `product_id`, `user_id`)
+VALUES
+    ('abc123', 4, 1),
+    ('abc123', 2, 1),
+    ('321cba', 1, 2),
+    ('xyz098', 3, 2),
+    ('a1b2c3', 1, 3),
+    ('a1b2c3', 2, 3),
+    ('a1b2c3', 3, 3),
+    ('a1b2c3', 4, 3);

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="hw8/WEB-INF/src"/>
+	<classpathentry kind="src" path="hw8testapp/WEB-INF/src"/>
+	<classpathentry kind="src" path="session8/WEB-INF/src"/>
+	<classpathentry kind="src" path="session8testapp/WEB-INF/src"/>
+	<classpathentry kind="lib" path="hw8/WEB-INF/lib/fscontext.jar"/>
+	<classpathentry kind="lib" path="hw8/WEB-INF/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="hw8/WEB-INF/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="hw8/WEB-INF/lib/providerutil.jar"/>
+	<classpathentry kind="lib" path="hw8/WEB-INF/lib/rowset.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/fscontext.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/providerutil.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/rowset.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="hw8testapp/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="session8/WEB-INF/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="session8/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="session8/WEB-INF/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="session8/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="session8/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="session8testapp/WEB-INF/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="session8testapp/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="session8testapp/WEB-INF/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="session8testapp/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="session8testapp/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="session8testapp/WEB-INF/classes"/>
+</classpath>

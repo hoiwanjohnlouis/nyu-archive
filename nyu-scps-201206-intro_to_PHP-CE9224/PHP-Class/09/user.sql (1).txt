@@ -1,0 +1,17 @@
+    $sql  = 'select ';
+    $sql .= 'users.`username`                   as USERNAME,    ';
+    $sql .= 'users.`first_name`                 as LAST_NAME,   ';
+    $sql .= 'users.`last_name`                  as FIRST_NAME,  ';
+    $sql .= 'users.`email`                      as EMAIL,       ';
+    $sql .= 'orders.`order_id`                  as OID,         ';
+    $sql .= 'products.`product_name`            as PRODNAME,    ';
+    $sql .= 'products.`product_description`     as PRODDESC,    ';
+    $sql .= 'products.`product_category`        as PRODCAT,     ';
+    $sql .= 'products.`price`                   as PRODPRICE    ';
+    $sql .= 'from users ';
+    $sql .= 'inner join orders    on users.`id`    = orders.`user_id` ';
+    $sql .= 'inner join products  on products.`id` = orders.`product_id` ';
+    $sql .= 'where users.`username` = ' . "'$username'";
+
+// $sql .= 'order by orders.`order_id` ';
+//    $sql .= 'limit 2';

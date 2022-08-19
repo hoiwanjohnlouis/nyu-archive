@@ -1,0 +1,55 @@
+DOCUMENT_NODE
+PROCESSING_INSTRUCTION_NODE ELEMENT_NODE: <Student-List> Parent: #document
+TEXT_NODE: "
+	" Parent: Student-List
+ELEMENT_NODE: <stu:Student> Parent: Student-List
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Name> Parent: stu:Student
+TEXT_NODE: "John P Smith" Parent: Name
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Grading> Parent: stu:Student
+TEXT_NODE: "Letter" Parent: Grading
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Score> Parent: stu:Student
+TEXT_NODE: "78" Parent: Score
+TEXT_NODE: "
+	" Parent: stu:Student
+TEXT_NODE: "
+	" Parent: Student-List
+ELEMENT_NODE: <stu:Student> Parent: Student-List
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Name> Parent: stu:Student
+TEXT_NODE: "Cathy Beckford" Parent: Name
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Grading> Parent: stu:Student
+TEXT_NODE: "PassFail" Parent: Grading
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Score> Parent: stu:Student
+TEXT_NODE: "67" Parent: Score
+TEXT_NODE: "
+	" Parent: stu:Student
+TEXT_NODE: "
+	" Parent: Student-List
+ELEMENT_NODE: <stu:Student> Parent: Student-List
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Name> Parent: stu:Student
+TEXT_NODE: "Bob Leonard" Parent: Name
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Grading> Parent: stu:Student
+TEXT_NODE: "NonEval" Parent: Grading
+TEXT_NODE: "
+		" Parent: stu:Student
+ELEMENT_NODE: <Score> Parent: stu:Student
+TEXT_NODE: "45" Parent: Score
+TEXT_NODE: "
+	" Parent: stu:Student
+TEXT_NODE: "
+" Parent: Student-List

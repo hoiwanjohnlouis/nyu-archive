@@ -1,0 +1,13 @@
+<javaee:web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <javaee:servlet>
+    <javaee:description></javaee:description>
+    <javaee:display-name>MusicCatalogServlet</javaee:display-name>
+    <javaee:servlet-name>MusicCatalogServlet</javaee:servlet-name>
+    <javaee:servlet-class>servlet.MusicCatalogServlet</javaee:servlet-class>
+  </javaee:servlet>
+  <javaee:servlet-mapping>
+    <javaee:servlet-name>MusicCatalogServlet</javaee:servlet-name>
+    <javaee:url-pattern>/MusicCatalogServlet</javaee:url-pattern>
+  </javaee:servlet-mapping>
+</javaee:web-app>
+
